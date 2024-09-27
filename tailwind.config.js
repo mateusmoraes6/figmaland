@@ -13,6 +13,9 @@ export default {
         text: '#252B42',
         'secondary-Text': '#374754',
         'dark-Background': '#252B42'
+      },
+      screens: {
+        'xs': '400px'
       }
     },
   },
