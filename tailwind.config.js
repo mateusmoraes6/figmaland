@@ -7,6 +7,12 @@ export default {
       fontFamily: {
         graphik: ['Graphik', 'sans-serif'],
         'graphik-bold': ['Graphik-bold', 'sans-serif']
+      },
+      colors: {
+        primary: '#2091F9',
+        text: '#252B42',
+        'secondary-Text': '#374754',
+        'dark-Background': '#252B42'
       }
     },
   },
