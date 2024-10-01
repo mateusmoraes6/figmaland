@@ -20,7 +20,7 @@ export const Button = ({ children, variant = "primary", isBold = false, classNam
 // Validações
 Button.propTypes = {
   children: PropTypes.node.isRequired,
-  variant: PropTypes.node.isRequired,
-  isBold: PropTypes.node.isRequired,
-  className: PropTypes.node.isRequired,
+  variant: PropTypes.string,
+  isBold: PropTypes.bool,
+  className: PropTypes.string,
 };

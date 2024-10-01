@@ -8,7 +8,7 @@ export const Testimonials = () => {
   return (
     <section className="bg-white">
       <div className="w-full max-w-[360px] md:max-w-[900px] mx-auto flex flex-col items-center justify-center gap-[80px] md:px-5 xl:px-0">
-        <Heading type="h2" className="w-fit">
+        <Heading type="h2" className="w-fit mt-4">
           Testimonials
         </Heading>
 

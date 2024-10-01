@@ -17,7 +17,7 @@ export const Heading = ({ children, type = "h1", color = '', className = '' }) =
 // Validações
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  type: PropTypes.string.isRequired,
-  color: PropTypes.node.isRequired,
-  className: PropTypes.node.isRequired,
+  type: PropTypes.string,
+  color: PropTypes.string,
+  className: PropTypes.string,
 };
