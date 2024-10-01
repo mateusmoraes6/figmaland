@@ -22,7 +22,7 @@ export const CalendarFeature = () => {
             freelancers
           </Heading>
 
-          <Button className='lg:max-w-[236px]'>Try For Free</Button>
+          <Button className='lg:max-w-[236px] mb-14'>Try For Free</Button>
         </div>
 
         <img src={CalendarImage} />

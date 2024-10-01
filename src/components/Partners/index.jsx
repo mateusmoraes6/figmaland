@@ -11,7 +11,7 @@ export const Partners = () => {
   return (
     <section className="bg-white">
       <div className="max-w-full md:max-w-[900px] mx-auto flex flex-col items-center justify-center gap-[60px] md:px-5 xl:px-0">
-        <Heading type="h2" className="max-w-fit mb-[-35px]">
+        <Heading type="h2" className="max-w-fit mb-[-35px] mt-20">
           Partners
         </Heading>
         <p className="text-center text-sm text-secondary-text font-bold max-w-[280px] md:max-w-none md:text-2xl md:font-normal mb-8">
