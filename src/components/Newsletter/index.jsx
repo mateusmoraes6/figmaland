@@ -35,7 +35,7 @@ export const Newsletter = () => {
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full max-w-[300px] md:w-[273px] p-3 border-2 border-none rounded-[35px] bg-slate-200 placeholder-gray-900 font-graphik mb-4 md:mb-0 "
+            className="w-full max-w-[300px] md:w-[273px] p-3 border-2 border-none rounded-[35px] bg-slate-200 placeholder-gray-500 font-graphik mb-4 md:mb-0 "
           />
           <Button className="w-full max-w-[300px] md:w-[172px] ml-0 md:ml-2 hover:bg-blue-600">
             Subscribe
