@@ -4,6 +4,7 @@ import { CalendarFeature } from "./components/CalendarFeature";
 import { Newsletter } from "./components/Newsletter";
 import { Partners } from "./components/Partners";
 import { Testimonials } from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Newsletter />
         <Partners />
         <Testimonials />
+        <Footer />
     </div>
   )
 }
