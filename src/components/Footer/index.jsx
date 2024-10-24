@@ -1,53 +1,110 @@
-import { MapPin, Phone } from 'lucide-react';
+import { MapPin, Phone } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#282c4b] text-white py-8 md:py-20">
+    <footer className="text-white py-8 md:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Pages Column */}
           <div className="text-center md:text-left">
             <h3 className="font-bold text-lg mb-4 md:mb-6">Pages</h3>
             <ul className="space-y-3 md:space-y-4">
-              <li><a href="#" className="hover:text-gray-300">Home</a></li>
-              <li><a href="#" className="hover:text-gray-300">Product</a></li>
-              <li><a href="#" className="hover:text-gray-300">Pricing</a></li>
-              <li><a href="#" className="hover:text-gray-300">About</a></li>
-              <li><a href="#" className="hover:text-gray-300">Contact</a></li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Product
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
-          {/* Tomothy Column */}
           <div className="text-center md:text-left">
             <h3 className="font-bold text-lg mb-4 md:mb-6">Tomothy</h3>
             <ul className="space-y-3 md:space-y-4">
-              <li><a href="#" className="hover:text-gray-300">Eleanor Edwards</a></li>
-              <li><a href="#" className="hover:text-gray-300">Ted Robertson</a></li>
-              <li><a href="#" className="hover:text-gray-300">Annette Russell</a></li>
-              <li><a href="#" className="hover:text-gray-300">Jennie Mckinney</a></li>
-              <li><a href="#" className="hover:text-gray-300">Gloria Richards</a></li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Eleanor Edwards
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Ted Robertson
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Annette Russell
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Jennie Mckinney
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Gloria Richards
+                </a>
+              </li>
             </ul>
           </div>
 
-          {/* Jane Black Column */}
           <div className="text-center md:text-left">
             <h3 className="font-bold text-lg mb-4 md:mb-6">Jane Black</h3>
             <ul className="space-y-3 md:space-y-4">
-              <li><a href="#" className="hover:text-gray-300">Philip Jones</a></li>
-              <li><a href="#" className="hover:text-gray-300">Product</a></li>
-              <li><a href="#" className="hover:text-gray-300">Colleen Russell</a></li>
-              <li><a href="#" className="hover:text-gray-300">Marvin Hawkins</a></li>
-              <li><a href="#" className="hover:text-gray-300">Bruce Simmmons</a></li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Philip Jones
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Product
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Colleen Russell
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Marvin Hawkins
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-300">
+                  Bruce Simmmons
+                </a>
+              </li>
             </ul>
           </div>
 
-          {/* Contact Info & Social Media */}
           <div className="space-y-6 text-center md:text-left">
-            {/* Contact Information */}
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <MapPin size={20} />
-                <span className="text-sm md:text-base">7480 Mockingbird Hill undefined</span>
+                <span className="text-sm md:text-base">
+                  7480 Mockingbird Hill undefined
+                </span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <Phone size={20} />
@@ -55,7 +112,6 @@ export const Footer = () => {
               </div>
             </div>
 
-            {/* Social Media Icons */}
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="#" className="hover:opacity-80">
                 <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
