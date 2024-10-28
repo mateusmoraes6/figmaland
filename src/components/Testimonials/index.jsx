@@ -32,7 +32,7 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        <Button className="w-full max-w-[280px]">More Testimonials</Button>
+        <Button className="w-full max-w-[280px] mb-11">More Testimonials</Button>
       </div>
     </section>
   );
