@@ -1,58 +1,9 @@
-import { useState, useRef } from "react";
 import drawing from "../../assets/images/features/mdi_drawing.png";
 import draw from "../../assets/images/features/mdi_draw.png";
 import brush from "../../assets/images/features/mdi_brush.png";
-import featureVideo from "../../assets/images/features/feature_video.mp4";
-import { PlayIcon, PauseIcon } from "lucide-react";
+import { VideoFeature } from "./VideoFeature";
 
 export const Feature = () => {
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [showControls, setShowControls] = useState(true);
-  const controlsTimeoutRef = useRef(null);
-
-  const handlePlayPause = () => {
-    if (isPlaying) {
-      videoRef.current.pause();
-    } else {
-      videoRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-    if (!isPlaying) {
-      setShowControls(false);
-    }
-  };
-
-  const handleVideoEnd = () => {
-    setIsPlaying(false);
-    setShowControls(true);
-  };
-
-  const handleMouseMove = () => {
-    setShowControls(true);
-    
-    // Limpa o timeout anterior se existir
-    if (controlsTimeoutRef.current) {
-      clearTimeout(controlsTimeoutRef.current);
-    }
-
-    // Define novo timeout apenas se o vídeo estiver reproduzindo
-    if (isPlaying) {
-      controlsTimeoutRef.current = setTimeout(() => {
-        setShowControls(false);
-      }, 2000);
-    }
-  };
-
-  const handleMouseLeave = () => {
-    if (isPlaying) {
-      setShowControls(false);
-      if (controlsTimeoutRef.current) {
-        clearTimeout(controlsTimeoutRef.current);
-      }
-    }
-  };
-
   return (
     <div className="bg-white font-graphik py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,38 +62,8 @@ export const Feature = () => {
           </div>
         </div>
 
-        <div className="mt-16">
-          <div
-            className="relative w-full h-[400px] bg-gray-100 rounded-lg overflow-hidden cursor-pointer"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
-              {showControls && (
-                <button
-                  onClick={handlePlayPause}
-                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 hover:bg-blue-600 text-white rounded-full p-4 flex items-center justify-center transition-opacity duration-300 z-10"
-                >
-                  {isPlaying ? (
-                    <PauseIcon className="w-6 h-6" />
-                  ) : (
-                    <PlayIcon className="w-6 h-6" />
-                  )}
-                </button>
-              )}
-
-              <video
-                ref={videoRef}
-                src={featureVideo}
-                onEnded={handleVideoEnd}
-                className="rounded-2xl w-full h-full object-cover"
-                onClick={handlePlayPause}
-              />
-            </div>
-          </div>
-        </div>
+        <VideoFeature />
       </div>
     </div>
   );
 };
-
