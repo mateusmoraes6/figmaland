@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Main } from "./components/Main";
+import { Feature } from "./components/Feature";
 import { CalendarFeature } from "./components/CalendarFeature";
 import { Newsletter } from "./components/Newsletter";
 import { Partners } from "./components/Partners";
@@ -13,6 +14,7 @@ export default function App() {
     <div className="bg-dark-Background">
         <Navbar/>
         <Main />
+        <Feature />
         <CalendarFeature />
         <Newsletter />
         <Partners />

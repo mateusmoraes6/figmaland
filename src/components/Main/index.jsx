@@ -16,9 +16,12 @@ export const Main = () => {
         <h1 className="text-4xl sm:text-6xl font-bold mx-auto relative top-20">
           The best products <br /> start with Figma
         </h1>
-        <p className="text-lg sm:text-xl text-gray-300 max-w-xl mx-auto relative top-24">
+        <p className="hidden md:block text-lg sm:text-xl text-gray-300 max-w-xl mx-auto relative top-24">
           Most calendars are designed for teams. Slate is designed <br /> for
           freelancers.
+        </p>
+        <p className="block md:hidden text-lg sm:text-xl text-gray-300 max-w-xl mx-auto relative top-24">
+          Most calendars are <br /> designed for teams.
         </p>
       </div>
       <div className="relative max-w-screen-xl mx-auto py-16 flex items-center justify-center z-10">
