@@ -112,34 +112,34 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-        <div className="px-4 pt-2 pb-4 space-y-4 bg-zinc-800">
+        <div className="px-4 pt-2 pb-4 space-y-4 bg-dark-Background">
           <a
             href="#"
-            className="block text-sm text-white font-medium hover:bg-zinc-700 rounded p-2"
+            className="block text-sm text-white font-medium hover:bg-blue-500 rounded p-2"
           >
             Home
           </a>
           <a
             href="#"
-            className="block text-sm text-white font-medium hover:bg-zinc-700 rounded p-2"
+            className="block text-sm text-white font-medium hover:bg-blue-500 rounded p-2"
           >
             Product
           </a>
           <a
             href="#"
-            className="block text-sm text-white font-medium hover:bg-zinc-700 rounded p-2"
+            className="block text-sm text-white font-medium hover:bg-blue-500 rounded p-2"
           >
             Pricing
           </a>
           <a
             href="#"
-            className="block text-sm text-white font-medium hover:bg-zinc-700 rounded p-2"
+            className="block text-sm text-white font-medium hover:bg-blue-500 rounded p-2"
           >
             About
           </a>
           <a
             href="#"
-            className="block text-sm text-white font-medium hover:bg-zinc-700 rounded p-2"
+            className="block text-sm text-white font-medium hover:bg-blue-500 rounded p-2"
           >
             Contact
           </a>

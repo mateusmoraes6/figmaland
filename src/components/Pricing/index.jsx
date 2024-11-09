@@ -44,7 +44,7 @@ PricingCard.propTypes = {
   isPopular: PropTypes.bool,
 };
 
-export default function Pricing() {
+export function Pricing() {
   return (
     <div className="min-h-screen px-4 py-12">
       <div className="text-center text-white mb-12">
