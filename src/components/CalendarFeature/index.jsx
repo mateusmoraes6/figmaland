@@ -4,7 +4,7 @@ import CalendarImage from '../../assets/images/features/calendar-feature-screens
 
 export const CalendarFeature = () => {
   return (
-    <section className='bg-white py-[90px] px-5 xl:px-0'>
+    <section className='bg-white py-[40px] px-5 xl:px-0'>
       <div className='w-full max-w-[400px] flex flex-col justify-center items-center mx-auto lg:flex-row lg:max-w-[1240px] lg:gap-[50px]'>
         <div className='flex flex-col mb-[60px] lg:mb-0'>
           <Heading
@@ -25,7 +25,7 @@ export const CalendarFeature = () => {
           <Button className='lg:max-w-[236px] mb-14'>Try For Free</Button>
         </div>
 
-        <img src={CalendarImage} />
+        <img src={CalendarImage} alt='Calendar Image' />
       </div>
     </section>
   )

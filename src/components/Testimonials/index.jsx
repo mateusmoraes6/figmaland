@@ -13,7 +13,7 @@ export const Testimonials = () => {
         </Heading>
 
         <div className="flex flex-col py-4 items-center justify-center gap-11 md:gap-12">
-          <img src={IbmLogo} />
+          <img src={IbmLogo} alt="IBM logo" />
 
           <p className="text-center text-sm text-secondary-text font-bold w-full max-w-[280px] md:max-w-none md:text-2xl md:font-normal">
             Most calendars are designed for teams. Slate is designed for
@@ -21,7 +21,7 @@ export const Testimonials = () => {
           </p>
 
           <div className="flex gap-3 justify-center items-center">
-            <img src={TestimonialPerson} />
+            <img src={TestimonialPerson} alt="Testimonial Person" />
 
             <div>
               <p className="text-xs font-bold text-secondary-text">

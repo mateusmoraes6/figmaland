@@ -2,7 +2,6 @@ import { Heading } from "../Heading";
 import drawing from "../../assets/images/features/mdi_drawing.png";
 import draw from "../../assets/images/features/mdi_draw.png";
 import brush from "../../assets/images/features/mdi_brush.png";
-// import { VideoFeature } from "./VideoFeature";
 import featureVideo from "../../assets/videos/feature_video.mp4";
 
 export const Feature = () => {
@@ -67,7 +66,7 @@ export const Feature = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center mt-2 h-full">
+        <div className="flex items-center justify-center mt-14 h-full">
           <video
             src={featureVideo}
             className="rounded-2xl object-cover shadow-2xl cursor-pointer"

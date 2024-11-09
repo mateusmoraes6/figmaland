@@ -121,9 +121,10 @@ export function ContactUs() {
           <div className="hidden md:flex justify-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093706!2d144.95592331531686!3d-37.81720997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f43b77c9%3A0xb1f9d3b2dc4201a6!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1632428388273!5m2!1sen!2sau"
-              allowFullScreen=""
               loading="lazy"
+              title="Google Maps"
               className="w-[400px] h-[316px] flex items-center"
+              allowFullScreen
             />
           </div>
 
