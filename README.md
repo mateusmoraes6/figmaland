@@ -1,6 +1,8 @@
 # FigmaLand - Landing Page
 
-![Preview Image](./assets/images/brands/preview.png) <!-- Adicione uma imagem de preview do projeto aqui -->
+<div align="center"> 
+   <img src="https://github.com/mateusmoraes6/figmaland/blob/master/src/assets/images/brands/preview.png" alt="Preview Image" width="400" height="400" />
+</div>
 
 ## 📝 Descrição
 
