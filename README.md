@@ -10,6 +10,8 @@ FigmaLand é uma landing page moderna desenvolvida com React, Vite e TailwindCSS
 
 Esta landing page foca em um design de interface limpa e experiência de usuário, com uma estilização personalizada para adaptar a interface a diferentes tamanhos de tela, garantindo uma navegação intuitiva em dispositivos móveis e desktops.
 
+#### Veja mais em: [Deploy](https://lnkd.in/dBR-bghJ) | [Publicação no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7261399473006776320/)
+
 ## ⚙️ Funcionalidades
 
 - **Design moderno e responsivo**: Layout adaptado para diferentes dispositivos.
